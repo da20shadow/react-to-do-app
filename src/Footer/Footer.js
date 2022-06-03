@@ -3,7 +3,7 @@ function Footer (){
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <footer>
+        <footer className={'mt-5'}>
             <p>Copyright &copy; <Link to={'#'}>da20shadow</Link> {year}</p>
         </footer>
     )
